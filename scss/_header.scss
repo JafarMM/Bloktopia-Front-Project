@@ -1,0 +1,46 @@
+header{
+    nav{
+        background-color: black;
+        .logo{
+            img{
+                max-width: 100%;
+                width: 50%;
+            }
+        }
+        span{
+            img{
+                max-width: 100%;
+                width: 70%;
+            }
+        }
+        .navbarmm{
+            padding-top: 35px;
+            padding-bottom: 25px;
+        }
+        .buttons{
+            a{
+                font-family: 'Dongle', sans-serif;
+                font-size: 22px;
+                border: solid 1px white;
+                background-color: white;
+                transition: 0.8s;
+                border-radius: 15px;
+                padding: 2px 6px 1px 6px;
+                color: black;
+                text-decoration: none;
+            }
+            a:hover{
+               background-color: #FF47FF;
+               border-color: #FF47FF;
+               padding: 5px 8px 5px 8px;
+               transition: 0.8s;
+            }
+        }
+    }
+    .headervideo{
+        video{
+          max-width: 100%;
+          width: 100%;
+        }
+    }
+}

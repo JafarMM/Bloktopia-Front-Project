@@ -1,0 +1,36 @@
+@media  screen and (max-width: 968px) {
+    header{
+        nav{
+            span{
+                img{
+                     
+                    width: 100%;
+                }
+            }
+        }
+    }
+    main{
+        .metaversetextright{ 
+            h1{
+                font-size: 25px;
+            }
+            h2{
+                font-size: 35px;       
+            }  
+        }
+        .criptonotebooktext{
+            h1{
+                font-size: 25px;
+            }
+            h2{
+                font-size: 35px;
+            }
+        }
+    }
+     
+}
+@media only screen  and(max-width:768px){
+    header{
+        
+    }
+}
