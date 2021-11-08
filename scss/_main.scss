@@ -130,7 +130,7 @@ main{
     }
     #earnpart{
         text-align: center;
-        color: white;
+        color: black;
         font-family: 'Josefin Sans', sans-serif;
         img{
             max-width: 100%;
@@ -143,5 +143,82 @@ main{
                 width:40%;
             }
         }
+    }
+    #playpart{
+        text-align: center;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        img{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        .playimg{
+            margin-top: 50px;
+            img{
+                max-width: 100%;
+                width:40%;
+            }
+        }
+    }
+    #createpart{
+        text-align: center;
+        color: black;
+        font-family: 'Josefin Sans', sans-serif;
+        img{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        .createimg{
+            margin-top: 50px;
+            img{
+                max-width: 100%;
+                width:40%;
+            }
+        }
+    }
+    #opportunities{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        .h1text{
+            border: solid 1px black;
+            width: 50%;
+            box-shadow: 0 0 10px 10px #FF47FF;
+            h3{
+                font-family: 'Mochiy Pop P One', sans-serif;
+                padding: 15px 20px 10px 20px;
+                text-align: center;
+                color: #FF47FF;
+            }
+        }
+    }
+    #blocks{
+        text-align: center;
+        h1{
+            color: white;
+            font-weight: bold;
+        }
+        h3{
+            color: #FF47FF;
+        }
+        p{
+            color: #FF47FF;
+        }
+        #blocktext{
+            color: white;
+        }
+    }
+    #upscroll{
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        border: solid 1px white;
+        border-radius: 50%;
+        background-color: #FF47FF;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
 }
