@@ -289,6 +289,38 @@ main #blocks #blocktext {
   color: white;
 }
 
+main #blocks #tokenlook {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+main #blocks #tokenlook p {
+  color: white;
+}
+
+main #tokenutility {
+  background-color: #FF47FF;
+}
+
+main #tokenutility img {
+  max-width: 100%;
+  width: 50%;
+}
+
+main #tokenutility .bloklist img {
+  max-width: 100%;
+  width: 45%;
+}
+
+main #tokenutility .bloklist p {
+  padding-top: 50px;
+}
+
+main #tokenutility .bloklist .col-md-3 {
+  padding-top: 35px;
+}
+
 main #upscroll {
   display: none;
   position: fixed;
@@ -338,5 +370,8 @@ main #upscroll {
   }
   main .blokpartcenter h1 {
     font-size: 24px;
+  }
+  main .bloklist p {
+    text-align: center;
   }
 }

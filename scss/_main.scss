@@ -206,6 +206,34 @@ main{
         #blocktext{
             color: white;
         }
+
+        #tokenlook{
+            padding-top: 200px;
+            padding-bottom: 200px;
+            text-align: center;
+            p{
+                color: white;
+            }
+        }
+    }
+    #tokenutility{
+        background-color:#FF47FF ;
+        img{
+            max-width: 100%;
+            width: 50%;
+        }
+        .bloklist{
+            img{
+                max-width: 100%;
+                width: 45%;
+            }
+            p{
+                padding-top: 50px;
+            }
+            .col-md-3{
+                padding-top: 35px;
+            }
+        }
     }
     #upscroll{
         display: none;
